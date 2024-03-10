@@ -1,0 +1,38 @@
+body{
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    margin-top: 50%;
+    margin-left: 50%;
+    padding: 0;
+    padding-right: 50%;
+    list-style: none;
+    display: flex;
+}
+.social-icons li{
+    margin: 0 20px;
+}
+.social-icons li a{
+    border: 30px solid white;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    border-right: none;
+    border-top: none;
+    transition: .2s ease;
+}
+.social-icons li a:hover{
+    border-top: 10px solid;
+    border-right: 10px solid;
+    transform: rotate(360deg);
+    background-color: rgb(54, 63, 187);
+    border-color: rgb(20, 19, 18);
+}
